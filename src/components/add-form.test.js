@@ -3,6 +3,7 @@ import {shallow, mount} from 'enzyme';
 
 import AddForm from './add-form';
 
+console.log('');
 describe('<AddForm />', () => {
     it('Renders without crashing', () => {
         shallow(<AddForm />);
